@@ -1,0 +1,47 @@
+.capyTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1 {
+    width: 400px;
+    height: 400px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#img2 {
+    width: 400px;
+    height: 400px;
+    padding-left:20px;
+    padding-bottom: 20px;
+}
+
+#img3 {
+    width: 400px;
+    height: 400px;
+    padding-right:20px;
+    padding-top: 20px;
+}
+
+#img4 {
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+}   
+
+#header1 {
+    text-align: center;
+}
+
+#body {
+    background-color: aquamarine;
+}
+
+#footer {
+    text-align: center;
+    background-color: gray;
+    width: auto;
+    height: 60px;
+}
