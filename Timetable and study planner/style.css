@@ -1,0 +1,75 @@
+table {
+    color: red ;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+   
+}
+
+th {
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.rows {
+    color: red;
+}
+
+td {
+    color: black;
+    font-weight: bold;
+
+}
+
+#header {
+    color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+}
+
+th:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+
+#rowColor {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+#notesHeader {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center; 
+    border-radius: 6px;
+    padding: 5px 0;
+
+    top: 100%;
+    left: 50%;  
+    margin-left: -60px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+
