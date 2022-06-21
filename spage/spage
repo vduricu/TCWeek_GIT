@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <title>CAPYBARA</title>
+</head>
+<body >
+    <h1 style=text-align:center>CAPYBARA</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw75TeD73owL-EDTe5r5abTfWg0EfzK7_CRg&usqp=CAU" id="c1" class="capy" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbWxvttURTEzgLqqMLVGnjS6dmJ-Xumvpy8g&usqp=CAU" id="c2" class="capy"/>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0WFs2GTR7E45b2APQQ2bwufM4_BVlYOWtQ&usqp=CAU" id="c3" class="capy" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzT7Sei6ZZb7uZGXbzNX3VLO2ECgnev1NKFA&usqp=CAU" id="c4" class="capy"/>
+    <br>
+    <h2 style=text-align:left s>CAPYBARA FACTS</h2>
+    
+    <ul>
+        <li class="item">They even behave like other rodents</li>
+        <li class="item">Capybaras are fantastic swimmers</li>
+        <li class="item">They can even sleep in water</li>
+        <li class="item">They have a unique vocal repertoire</li>
+    </ul>
+
+</body>
+</html>
