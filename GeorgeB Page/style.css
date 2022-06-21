@@ -36,12 +36,22 @@
 }
 
 #body {
-    background-color: aquamarine;
+    background-color: #37E2D5;
 }
 
 #footer {
     text-align: center;
-    background-color: gray;
+    background-color: rgb(27, 36, 48);
     width: auto;
     height: 60px;
+}
+
+#footerText {
+    text-decoration: underline;
+    color: #D6D5A8;
+}
+
+.numberedCapys {
+    color: #F15412;
+    font-size: 20px;
 }
