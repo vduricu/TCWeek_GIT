@@ -1,0 +1,51 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+.header{
+    font-size: 50px;
+    text-align: center;
+    background-color: olive
+}
+
+#resulthead{
+    text-align: center;
+}
+
+.after {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 40px; 
+    width: 250px;
+    height: auto;
+}
+
+#bait{
+    text-align: center;
+}
+
+.dolla{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    box-shadow:0 0 1em rgba(56, 46, 56, 0.705);
+}
+
+#giga{
+    width: 250px;
+    height: auto;
+}
+
+#leg{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #3f3d3d;
+    color: white;
+}
