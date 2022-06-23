@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animals</title>
+    <link rel="stylesheet" href="animals.css">
+
+</head>
+<body>
+<!--RULES-->
+        <div class="rules">
+                <p>Given a list of <strong>Cities</strong></p>
+                <p>Create a guessing game that:</p>
+                <ul>
+                    <li>Gives the user a starting hint</li>
+                    <li>Allows the user to enter guesses</li>
+                    <li>Shows the entered elements</li>
+                    <li>Allows the user to request a hint</li>
+                    <li>Keep a score for the guesses</li>
+                    <li>Allow the user to start a new game</li>
+                </ul>
+            </div>
+<!---->
+ 
+
+<!--BUTTONS FOR NG, SD, AH, UI-->
+<div class="game">
+   
+    <button id="NewGame">NewGame</button>
+    <div class="UserInput">
+        <input id="UserInput" name="UserInput" placeholder="Your guess is?"/>
+        <button id="SubmitData">Submit</button>
+        <button id="AskHint">Ask Hint</button>
+    </div>
+<!--ENDBUTTONS-->
+   
+    <div class="gameResults">
+        <div class="guesses" id="UserGuesses"></div>
+        <div class="score">
+            <span id="MyScore">0</span>
+            <p id="result"></p>
+        </div>
+    </div>
+
+</div>
+ 
+
+<!--FUNCTIONALITIES-->
+<script src="animals.js"></script>
+
+</body>
+</html>
