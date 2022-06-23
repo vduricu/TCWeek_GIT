@@ -22,11 +22,6 @@ function getGuess() {
     }
     else {
         document.getElementById("myScore").innerHTML += `<br> ${inputGuess} is the correct answer. Well Done!`;
-        let playMore = prompt("Would you like to start a new game? (Y/N)");
-
-        if (playMore === 'Y') {
-
-        }
     }
 }
 
@@ -40,3 +35,9 @@ function getHint() {
 }
 
 document.getElementById("AskHint").addEventListener("click", getHint);
+
+function startNewGame() {
+    document.location.reload();
+}
+
+document.getElementById("NewGame").addEventListener("click", startNewGame);
