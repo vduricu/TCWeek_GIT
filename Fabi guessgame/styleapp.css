@@ -1,0 +1,91 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.game {
+    width: 100%;
+}
+
+.rules {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    font-style: italic;
+    background-color: rgba(68, 204, 181, 0.623);
+    border-radius: 10px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game .userInput {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    align-content: center;
+}
+
+.game #UserInput {
+    width: 65%;
+    font-size: 14pt;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    outline: none;
+}
+
+.game #SubmitData {
+    width: 15%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.game #AskHint {
+    width: 15%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.game #SubmitDate:hover {
+    color: aqua;
+}
+
+.game #AskHint:hover {
+    color: rgb(34, 225, 0);
+}
+
+.gameResults {
+    width: 90%;
+    margin: 10px auto;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.gameResults .guesses {
+    flex: 1 1 50%;
+}
+.gameResults .guesses span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.gameResults .score {
+    flex: 1 1 50%;
+}
